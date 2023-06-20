@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="flexbox.css">
+    <style>
+        body {
+            background-image: url('sunset-background.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display:inline;
+            border-right: 1px solid white;
+        }
+        li:last-child{
+            border-right: none;
+        }
+        li a{
+            padding: 14px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    <h1>Rodney's Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactInfo">Contact Info</a></li>
+        </ul>
+    </nav> 
+
+<main>
+    <section id="aboutMe">
+        <img src="fam.jpg" style="width:300px;height:300px">
+        <h2>About Me</h2>
+        <p>Hi my name is Rodney.  I'm a simple man who loves
+            spending time with his family, working out, oh and I'm also
+        really into Tech. I'm currently enrolled in a software development program at We-Can-Code-It. </p>
+        <p> I've worked as an IT Equipment Coordinator for Amazon.  While in that position
+            I was in charge of inventory for all the tech equipment throughout the building.
+            My skill set includes: 
+            <ul>
+                <li>Repairs</li>
+                <li>Troubleshooting</li>
+                <li>Networking</li>
+                <li>Password resets</li>
+                <li>Customer service</li>
+            </ul>
+        </p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+        <article>
+            <h3><div class="grid-item">Coming soon!</div></h3>
+            <h3><div class="grid-item">Coming soon!</div></h3>
+            <h3><div class="grid-item">Coming soon!</div></h3>
+        </article>
+        </div>
+    </section>
+    <section id="contactInfo">
+        <h2>Contact Info</h2>
+        <p>If your interested in finding out more about me please click below</p>
+        <img src="this-is-the-way.jpeg" style="width:200px;height:200px">
+        <ul>
+            <li><img src="In-logo.png"> <a href="https://www.linkedin.com/in/rodney-alexander-iii-66014541/">Rodney's Profile</a> </li>
+            <li>Email: rpalexiii@gmail.com</li>
+        </ul>
+    </section>
+
+
+</main>
+
+<footer>
+    &copy; 2023
+</footer>
+
+</body>
+
+
+
+
+</html>
